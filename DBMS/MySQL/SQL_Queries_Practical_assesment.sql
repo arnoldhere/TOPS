@@ -25,14 +25,10 @@ INSERT INTO country (country_id, country) VALUES
 (4, 'Spain'),
 (5, 'Russia');
 
--- Insert Data into city
-
 INSERT INTO city (city_id, city, country_id) VALUES
 (1, 'Berlin', 1),
 (2, 'Zagreb', 2),
 (3, 'New York', 3);
-
--- Insert Data into customer
 
 INSERT INTO customer (customer_id, customer_name, city_id) VALUES
 (1, 'Tom', 1),
