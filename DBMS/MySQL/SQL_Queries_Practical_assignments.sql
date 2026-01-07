@@ -195,7 +195,7 @@ CREATE PROCEDURE AssignManagerToDepartment(
     IN department_id INT,
     IN manager_id INT
 )
-BEGIN
+BEGINauth_user
     UPDATE Employees
     SET manager_id = manager_id
     WHERE department_id = department_id;
